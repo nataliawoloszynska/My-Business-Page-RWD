@@ -4,13 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Projekt - Moja Firma RWD</title>
+    <title>Projekt - Moja Firma</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
     />
     <script
@@ -21,111 +17,113 @@
     <link rel="stylesheet" href="./style/style.css" />
   </head>
   <body>
-    <div class="page">
-      <div class="navbar-container">
-        <div class="navbar">
-          <p class="logo"><a class="logo-link" href="#main">moja firma</a></p>
-          <nav>
-            <ul class="main-nav">
-              <li class="main-nav-elem">
-                <a class="main-nav-link" href="#about">o nas</a>
-              </li>
-              <li class="main-nav-elem">
-                <a class="main-nav-link" href="#offer">oferta</a>
-              </li>
-              <li class="main-nav-elem">
-                <a class="main-nav-link-kontakt" href="#">kontakt</a>
-              </li>
-            </ul>
-            <div class="dropdown-menu">
-              <i class="fa-solid fa-bars"></i>
-              <div class="dropdown-content">
-                <a href="#about">o nas</a>
-                <a href="#offer">oferta</a>
-                <a href="#">kontakt</a>
+    <div class="navbar-container">
+      <div class="navbar content-container">
+        <p><a class="logo-link" href="#main">moja firma</a></p>
+        <nav>
+          <ul class="main-nav">
+            <li class="main-nav-elem">
+              <a class="main-nav-link" href="#about">o nas</a>
+            </li>
+            <li class="main-nav-elem">
+              <a class="main-nav-link" href="#offer">oferta</a>
+            </li>
+            <li class="main-nav-elem">
+              <a class="main-nav-link-contakt" href="#">kontakt</a>
+            </li>
+          </ul>
+          <div class="dropdown-menu">
+            <i class="fa-solid fa-bars"></i>
+            <div class="dropdown-content">
+              <a href="#about">o nas</a>
+              <a href="#offer">oferta</a>
+              <a href="#">kontakt</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <header id="main" class="landing-page-container">
+      <div class="landing-page-shadow">
+        <div class="landing-page content-container">
+          <p class="bigger-text">
+            Nasza firma oferuje najwyzszej jakości produkty.
+          </p>
+          <p class="text">Nie wierz nam na słowo - sprawdź</p>
+          <a href="#offer" class="header-button">oferta</a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section id="about" class="about-container">
+        <div class="content-container">
+          <h2 class="about-header">Nasi specjaliści</h2>
+          <div class="workers">
+            <div class="person-container">
+              <div class="photo1"></div>
+              <div class="person">
+                <h3 class="person-name">Imię Nazwisko [dział]</h3>
+                <p class="person-about">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit,
+                  animi incidunt esse perferendis recusandae vero deleniti
+                  magnam sed ratione eveniet iste! Non distinctio inventore
+                  cumque quia exercitationem! Asperiores, voluptatem hic?
+                </p>
               </div>
             </div>
-          </nav>
-        </div>
-      </div>
-      <div id="main" class="landing-page-container">
-        <div class="landing-page-shadow">
-          <div class="landing-page">
-            <p class="text1">
-              Nasza firma oferuje najwyzszej jakości produkty.
-            </p>
-            <p class="text2">Nie wierz nam na słowo - sprawdź</p>
-            <a href="#offer">
-              <button class="button1">oferta</button>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div id="about" class="about-container">
-        <h1 class="about-header">Nasi specjaliści</h1>
-        <div class="workers">
-          <div class="person1-container">
-            <div class="photo1"></div>
-            <div class="person1">
-              <h2 class="person1-name">Imię Nazwisko [dział]</h2>
-              <p class="person1-about">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit,
-                animi incidunt esse perferendis recusandae vero deleniti magnam
-                sed ratione eveniet iste! Non distinctio inventore cumque quia
-                exercitationem! Asperiores, voluptatem hic?
-              </p>
-            </div>
-          </div>
-          <div class="person2-container">
-            <div class="photo2"></div>
-            <div class="person2">
-              <h2 class="person2-name">Imię Nazwisko [dział]</h2>
-              <p class="person2-about">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit,
-                animi incidunt esse perferendis recusandae vero deleniti magnam
-                sed ratione eveniet iste! Non distinctio inventore cumque quia
-                exercitationem! Asperiores, voluptatem hic?
-              </p>
+            <div class="person-container">
+              <div class="photo2"></div>
+              <div class="person">
+                <h3 class="person-name">Imię Nazwisko [dział]</h3>
+                <p class="person-about">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit,
+                  animi incidunt esse perferendis recusandae vero deleniti
+                  magnam sed ratione eveniet iste! Non distinctio inventore
+                  cumque quia exercitationem! Asperiores, voluptatem hic?
+                </p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div id="offer" class="offer-container">
-        <h1 class="offer-header">Czym zajmuje się nasza firma?</h1>
-        <div class="services-container">
-          <div class="box">
-            <div class="dot"></div>
-            <div>
-              <h1 class="service">Usługa 1</h1>
-              <p class="service-new">(nowość)</p>
+      </section>
+      <section id="offer" class="offer-container">
+        <div class="content-container">
+          <h2 class="offer-header">Czym zajmuje się nasza firma?</h2>
+          <div class="services-container">
+            <div class="box">
+              <div class="dot"></div>
+              <div>
+                <h3 class="service">Usługa 1</h3>
+                <p class="service-new">(nowość)</p>
+              </div>
+            </div>
+            <div class="box">
+              <h3 class="service">Usługa 2</h3>
+            </div>
+            <div class="box">
+              <h3 class="service">Usługa 3</h3>
+            </div>
+            <div class="box">
+              <h3 class="service">Usługa 4</h3>
+            </div>
+            <div class="box">
+              <h3 class="service">Usługa 5</h3>
+            </div>
+            <div class="box">
+              <h3 class="service">Usługa 6</h3>
             </div>
           </div>
-          <div class="box">
-            <h1 class="service">Usługa 2</h1>
-          </div>
-          <div class="box">
-            <h1 class="service">Usługa 3</h1>
-          </div>
-          <div class="box">
-            <h1 class="service">Usługa 4</h1>
-          </div>
-          <div class="box">
-            <h1 class="service">Usługa 5</h1>
-          </div>
-          <div class="box">
-            <h1 class="service">Usługa 6</h1>
-          </div>
         </div>
-      </div>
-      <div class="footer-container">
-        <footer class="main-footer">
-          <p class="info">Nazwa firmy, wszelkie prawa zastrzezone, 2019</p>
-          <div class="icons">
-            <a href="#" class="fa-brands fa-instagram"></a>
-            <a href="#" class="fa-brands fa-square-facebook"></a>
-          </div>
-        </footer>
-      </div>
+      </section>
+    </main>
+    <div class="footer-container">
+      <footer class="main-footer content-container">
+        <p class="info">Nazwa firmy, wszelkie prawa zastrzezone, 2019</p>
+        <div class="icons">
+          <a href="#" class="fa-brands fa-instagram"></a>
+          <a href="#" class="fa-brands fa-square-facebook"></a>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
